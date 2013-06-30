@@ -1,0 +1,20 @@
+{
+  "name": "assert-diff",
+  "description": "Drop-in replacement for assert to give diff on deepEqual.",
+  "keywords": ["assert", "diff", "deepEqual", "object"],
+  "author": "Antti Mattila <pihvi@live.com>",
+  "repository": "git://github.com/pihvi/assert-diff",
+  "version": "0.0.1",
+  "main": "./lib/assert-diff.js",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "json-diff": "0.3.1",
+    "objectdiff": "1.1.0"
+  },
+  "devDependencies": {
+    "mocha": "1.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
