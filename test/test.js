@@ -2,6 +2,7 @@ var assert = require('./../lib/assert-diff')
 var assertOrig = require('assert')
 
 it('diff deep equal array', function() {
+  assert.string("yea")
   assert.deepEqual([22, "loi", {pow: true}], [22, "lol", {pow: true}])
 })
 

@@ -4,6 +4,8 @@ This exists to give better diff on error when comparing objects with Mocha.
 
 Should work on *nix shells.
 
+Also has more asserts from https://npmjs.org/package/assert-plus
+
 ## Usage ##
 ```javascript
 var assert = require('assert-diff')
