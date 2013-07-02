@@ -2,11 +2,11 @@ var assert = require('./../lib/assert-diff')
 var assertOrig = require('assert')
 
 it('diff deep equal array', function() {
-  assert.deepEqual([1, "loi", {pow: true}], [1, "lol", {pow: true}])
+  assert.deepEqual([22, "loi", {pow: true}], [22, "lol", {pow: true}])
 })
 
 it('original deep equal array', function() {
-  assertOrig.deepEqual([1, "loi", {pow: true}], [1, "lol", {pow: true}])
+  assertOrig.deepEqual([22, "loi", {pow: true}], [22, "lol", {pow: true}])
 })
 
 it('diff deep equal string', function() {
@@ -14,13 +14,17 @@ it('diff deep equal string', function() {
 })
 
 it('original deep equal string', function() {
-  assertOrig.deepEqual("tomato", "tomeito")
+  assertOrig.deepEqual("tomato", "tomeito", "hahaa")
 })
 
 it('diff deep equal', function() {
-  assert.deepEqual({pow: "boom", foo: 2}, {bar: 2, pow: "bang"})
+  assert.deepEqual({pow: "boom", same: true, foo: 2}, {same: true, bar: 2, pow: "bang"})
 })
 
 it('original deep equal', function() {
-  assertOrig.deepEqual({pow: "boom", foo: 2}, {bar: 2, pow: "bang"})
+  assertOrig.deepEqual({pow: "boom", same: true, foo: 2}, {same: true, bar: 2, pow: "bang"})
+})
+
+it('diff deep equal with message', function() {
+  assert.deepEqual({pow: "boom", same: true, foo: 2}, {same: true, bar: 2, pow: "bang"}, "this should fail")
 })

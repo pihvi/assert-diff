@@ -1,6 +1,8 @@
-Drop-in replacement for assert to give diff on deepEqual.
+Drop-in replacement for assert to give colored diff on command-line with deepEqual.
 
 This exists to give better diff on error when comparing objects with Mocha.
+
+Should work on *nix shells.
 
 ## Usage ##
 ```javascript
