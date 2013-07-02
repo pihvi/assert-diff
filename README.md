@@ -10,8 +10,12 @@ Also has more asserts from https://npmjs.org/package/assert-plus
 ```javascript
 var assert = require('assert-diff')
 
-assert.deepEqual({pow: "boom", foo: 2}, {bar: 2, pow: "bang"})
+it('diff deep equal with message', function() {
+  assert.deepEqual({pow: "boom", same: true, foo: 2}, {same: true, bar: 2, pow: "bang"}, "this should fail")
+})
 ```
+Should give you:
+![](https://raw.github.com/pihvi/assert-diff/master/test/example.png)
 
 ## License ##
 Apache 2.0
