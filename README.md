@@ -1,6 +1,6 @@
 Drop-in replacement for assert to give colored diff on command-line with deepEqual.
 
-This exists to give better diff on error when comparing objects with Mocha.
+This exists to give better diff on error when comparing objects or arrays with Mocha.
 
 Should work on *nix shells.
 
@@ -15,6 +15,7 @@ it('diff deep equal with message', function() {
 })
 ```
 Should give you:
+
 ![](https://raw.github.com/pihvi/assert-diff/master/test/example.png)
 
 ## License ##
