@@ -29,3 +29,8 @@ it('original deep equal', function() {
 it('diff deep equal with message', function() {
   assert.deepEqual({pow: "boom", same: true, foo: 2}, {same: true, bar: 2, pow: "bang"}, "this should fail")
 })
+
+it('strict diff deep equal', function() {
+  assert.deepEqual({a: 1, b: 2}, {a: true, b: "2"}, "this should not fail")
+  assert({strict: true}).deepEqual({a: 1, b: 2}, {a: true, b: "2"}, "this should fail")
+})

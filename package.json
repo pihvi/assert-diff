@@ -1,10 +1,10 @@
 {
   "name": "assert-diff",
   "description": "Drop-in replacement for assert to give diff on deepEqual.",
-  "keywords": ["assert", "diff", "deepEqual", "object", "array"],
+  "keywords": ["assert", "diff", "deepEqual", "object", "array", "strict"],
   "author": "Antti Mattila <pihvi@live.com>",
   "repository": "git://github.com/pihvi/assert-diff",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "./lib/assert-diff.js",
   "license": "Apache 2.0",
   "dependencies": {
