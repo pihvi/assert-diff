@@ -18,5 +18,19 @@ Should give you:
 
 ![](https://raw.github.com/pihvi/assert-diff/master/test/example.png)
 
+## Strict mode ##
+By default everything should work as with Node's deepEqual. Using strict mode is probably what you want. At least is for me.
+The following example will pass with Node's deepEqual but will fail using strict mode:
+```javascript
+var assert = require('assert-diff')({strict: true})
+
+it('strict diff deep equal', function() {
+  assert.deepEqual({a: 1, b: 2}, {a: true, b: "2"}, "this should fail")
+})
+```
+Should give you:
+
+![](https://raw.github.com/pihvi/assert-diff/master/test/example2.png)
+
 ## License ##
 Apache 2.0

@@ -4,7 +4,7 @@
   "keywords": ["assert", "diff", "deepEqual", "object", "array", "strict"],
   "author": "Antti Mattila <pihvi@live.com>",
   "repository": "git://github.com/pihvi/assert-diff",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "./lib/assert-diff.js",
   "license": "Apache 2.0",
   "dependencies": {
