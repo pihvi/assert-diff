@@ -35,6 +35,9 @@ Should give you:
 
 ## Release notes ##
 
+###  1.0.1 Feb 18, 2015  ###
+- Default behaviour back to non strict to be drop-in replacement for Node assert
+
 ###  1.0.0 Feb 18, 2015  ###
 - Support assert in constructor e.g. assert(true)
 
