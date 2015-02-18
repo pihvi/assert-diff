@@ -17,3 +17,19 @@ it('assert() works on both', function() {
     assert.equal(e.actual, false)
   }
 })
+
+it('strict diff deep equal', function() {
+  assert.deepEqual({a: 1}, {a: 1}, 'this should not fail')
+
+  assert.options.strict = false
+  assert.deepEqual({a: 1, b: 2}, {a: true, b: '2'}, 'this should not fail')
+
+  assert.options.strict = true
+  assertOrig.deepEqual({a: 1, b: 2}, {a: true, b: '2'}, 'this should not fail')
+  try {
+    assert.deepEqual({a: 1, b: 2}, {a: true, b: '2'}, 'this should fail')
+    assert.fail('Should fail on false')
+  } catch (e) {
+    assert.notEqual(e.actual, 'Should fail on false')
+  }
+})
