@@ -33,5 +33,13 @@ Should give you:
 
 ![](https://raw.github.com/pihvi/assert-diff/master/test/example2.png)
 
+## Release notes ##
+
+###  1.0.0 Feb 18, 2015  ###
+- Support assert in constructor e.g. assert(true)
+
+###  0.0.x before 2015 ###
+- Initial implementation
+
 ## License ##
 Apache 2.0
