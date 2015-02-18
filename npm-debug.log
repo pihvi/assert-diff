@@ -1,0 +1,38 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'start' ]
+2 info using npm@2.5.1
+3 info using node@v1.2.0
+4 verbose node symlink /usr/local/bin/node
+5 verbose run-script [ 'prestart', 'start', 'poststart' ]
+6 info prestart assert-diff@0.0.4
+7 info start assert-diff@0.0.4
+8 verbose unsafe-perm in lifecycle true
+9 info assert-diff@0.0.4 Failed to exec start script
+10 verbose stack Error: assert-diff@0.0.4 start: `mocha`
+10 verbose stack Exit status 8
+10 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+10 verbose stack     at emitTwo (events.js:85:13)
+10 verbose stack     at EventEmitter.emit (events.js:153:7)
+10 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:14:12)
+10 verbose stack     at emitTwo (events.js:85:13)
+10 verbose stack     at ChildProcess.emit (events.js:153:7)
+10 verbose stack     at maybeClose (child_process.js:984:16)
+10 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1057:5)
+11 verbose pkgid assert-diff@0.0.4
+12 verbose cwd /Users/amattila/oma/Dropbox/code/hs/assert-diff
+13 error Darwin 14.1.0
+14 error argv "node" "/usr/local/bin/npm" "start"
+15 error node v1.2.0
+16 error npm  v2.5.1
+17 error code ELIFECYCLE
+18 error assert-diff@0.0.4 start: `mocha`
+18 error Exit status 8
+19 error Failed at the assert-diff@0.0.4 start script 'mocha'.
+19 error This is most likely a problem with the assert-diff package,
+19 error not with npm itself.
+19 error Tell the author that this fails on your system:
+19 error     mocha
+19 error You can get their info via:
+19 error     npm owner ls assert-diff
+19 error There is likely additional logging output above.
+20 verbose exit [ 1, true ]

@@ -22,7 +22,8 @@ Should give you:
 By default everything should work as with Node's deepEqual. Using strict mode is probably what you want. At least is for me.
 The following example will pass with Node's deepEqual but will fail using strict mode:
 ```javascript
-var assert = require('assert-diff')({strict: true})
+var assert = require('assert-diff')
+assert.options.strict = true
 
 it('strict diff deep equal', function() {
   assert.deepEqual({a: 1, b: 2}, {a: true, b: "2"}, "this should fail")
