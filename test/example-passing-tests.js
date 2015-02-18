@@ -29,5 +29,7 @@ it('strict diff deep equal', function() {
     assert.fail('Should fail on false')
   } catch (e) {
     assert.notEqual(e.actual, 'Should fail on false')
+  } finally {
+    assert.options.strict = false
   }
 })
