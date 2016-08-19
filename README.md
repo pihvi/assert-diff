@@ -35,6 +35,9 @@ Should give you:
 
 ## Release notes ##
 
+###  1.1.0 Aug 19, 2016  ###
+- Upgrade assert-plus 0.1.5 -> 1.0.0 
+
 ###  1.0.1 Feb 18, 2015  ###
 - Default behaviour back to non strict to be drop-in replacement for Node assert
 
