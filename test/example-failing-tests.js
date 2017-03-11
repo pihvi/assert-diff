@@ -39,6 +39,14 @@ describe('examples', function() {
     assert.deepEqual({a: 1, b: 2}, {a: true, b: '2'}, 'this should fail')
   })
 
+  it('diff strict deep equal', function() {
+    assert.deepStrictEqual({pow: '1'}, {pow: 1})
+  })
+
+  it('original strict deep equal', function() {
+    assertOrig.deepStrictEqual({pow: '1'}, {pow: 1})
+  })
+
   after(function() {
     assert.options.strict = false
   })

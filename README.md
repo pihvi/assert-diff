@@ -35,8 +35,13 @@ Should give you:
 
 ## Release notes ##
 
+###  1.2.0 Mar 11, 2017  ###
+- Support Node 7
+- Diff shown when loggin error object
+- Supports diff in assert.deepStrictEqual
+
 ###  1.1.1 Mar 11, 2017  ###
-- Support Node 7 in console log example 
+- fix console log example to support Node 7 
 
 ###  1.1.0 Aug 19, 2016  ###
 - Upgrade assert-plus 0.1.5 -> 1.0.0 

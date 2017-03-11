@@ -12,3 +12,15 @@ try {
 } catch (e) {
   console.log('\nOriginal assert:\n', e)
 }
+
+try {
+  assert.deepStrictEqual({pow: 1}, {pow: "1"})
+} catch (e) {
+  console.log('Diff assert strict\n', e)
+}
+
+try {
+  assertOrig.deepStrictEqual({pow: 1}, {pow: "1"})
+} catch (e) {
+  console.log('\nOriginal assert strict:\n', e)
+}
