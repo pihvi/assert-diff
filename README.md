@@ -35,6 +35,9 @@ Should give you:
 
 ## Release notes ##
 
+###  1.1.1 Mar 11, 2017  ###
+- Support Node 7 in console log example 
+
 ###  1.1.0 Aug 19, 2016  ###
 - Upgrade assert-plus 0.1.5 -> 1.0.0 
 
