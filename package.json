@@ -22,7 +22,7 @@
     "mocha": "3.2.0"
   },
   "scripts": {
-    "test": "mocha test/example-passing-tests.js",
+    "test": "./node_modules/mocha/bin/mocha test/example-passing-tests.js",
     "start": "mocha"
   }
 }
