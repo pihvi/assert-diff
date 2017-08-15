@@ -7,6 +7,8 @@ Should work on *nix shells.
 Also has more asserts from https://npmjs.org/package/assert-plus
 
 ## Usage ##
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/pihvi/assert-diff.svg)](https://greenkeeper.io/)
 ```javascript
 var assert = require('assert-diff')
 

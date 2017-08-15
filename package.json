@@ -19,7 +19,7 @@
     "json-diff": "0.3.1"
   },
   "devDependencies": {
-    "mocha": "3.2.0"
+    "mocha": "3.5.0"
   },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha test/example-passing-tests.js",
