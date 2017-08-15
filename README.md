@@ -37,6 +37,9 @@ Should give you:
 
 ## Release notes ##
 
+###  1.2.1 Aug 15, 2017  ###
+- Add npm lock file
+
 ###  1.2.0 Mar 11, 2017  ###
 - Support Node 7
 - Diff shown when loggin error object
