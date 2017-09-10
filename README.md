@@ -37,6 +37,9 @@ Should give you:
 
 ## Release notes ##
 
+###  1.2.3 Sep 10, 2017  ###
+- Upgrade json-diff to 0.5.2
+
 ###  1.2.2 Aug 20, 2017  ###
 - Upgrade json-diff to 0.5.1
 
