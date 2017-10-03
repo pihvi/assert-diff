@@ -37,6 +37,9 @@ Should give you:
 
 ## Release notes ##
 
+###  1.2.4 Oct 3, 2017  ###
+- Upgrade deps
+
 ###  1.2.3 Sep 10, 2017  ###
 - Upgrade json-diff to 0.5.2
 
