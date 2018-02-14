@@ -11,7 +11,7 @@
   ],
   "author": "Antti Mattila <pihvi@live.com>",
   "repository": "git://github.com/pihvi/assert-diff",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "main": "./lib/assert-diff.js",
   "license": "Apache-2.0",
   "dependencies": {
@@ -19,7 +19,7 @@
     "json-diff": "0.5.2"
   },
   "devDependencies": {
-    "mocha": "5.0.0"
+    "mocha": "5.0.1"
   },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha test/example-passing-tests.js",
