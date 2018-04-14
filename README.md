@@ -8,7 +8,7 @@ Also has more asserts from https://npmjs.org/package/assert-plus
 
 ## Usage ##
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/pihvi/assert-diff.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/pihvi/assert-diff.svg)](https://travis-ci.org/pihvi/assert-diff) [![Known Vulnerabilities](https://snyk.io/test/npm/assert-diff/badge.svg)](https://snyk.io/test/npm/assert-diff)
 ```javascript
 var assert = require('assert-diff')
 
