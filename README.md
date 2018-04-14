@@ -1,3 +1,5 @@
+[![Greenkeeper badge](https://badges.greenkeeper.io/pihvi/assert-diff.svg)](https://travis-ci.org/pihvi/assert-diff) [![Known Vulnerabilities](https://snyk.io/test/npm/assert-diff/badge.svg)](https://snyk.io/test/npm/assert-diff)
+
 Drop-in replacement for assert to give colored diff on command-line with deepEqual.
 
 This exists to give better diff on error when comparing objects or arrays with Mocha.
@@ -8,7 +10,6 @@ Also has more asserts from https://npmjs.org/package/assert-plus
 
 ## Usage ##
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/pihvi/assert-diff.svg)](https://travis-ci.org/pihvi/assert-diff) [![Known Vulnerabilities](https://snyk.io/test/npm/assert-diff/badge.svg)](https://snyk.io/test/npm/assert-diff)
 ```javascript
 var assert = require('assert-diff')
 
@@ -36,6 +37,10 @@ Should give you:
 ![](https://raw.github.com/pihvi/assert-diff/master/test/example2.png)
 
 ## Release notes ##
+
+###  1.2.6 Apr 14, 2018  ###
+- Add security build and badges
+- Upgrade deps
 
 ###  1.2.4 Oct 3, 2017  ###
 - Upgrade deps
