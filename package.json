@@ -1,5 +1,5 @@
 {
-  "name": "assert-diff",
+  "name": "@59naga/assert-diff",
   "description": "Drop-in replacement for assert to give diff on deepEqual.",
   "keywords": [
     "assert",
@@ -19,10 +19,16 @@
     "json-diff": "0.5.2"
   },
   "devDependencies": {
-    "mocha": "5.1.0"
+    "@babel/cli": "^7.0.0-beta.55",
+    "@babel/core": "^7.0.0-beta.55",
+    "@babel/plugin-transform-modules-commonjs": "^7.0.0-beta.55",
+    "eastern": "^0.0.4",
+    "prettier": "^1.14.0"
   },
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha test/example-passing-tests.js",
-    "start": "mocha"
+    "test": "node --experimental-modules test/example-passing-tests.mjs",
+    "start": "npm test",
+    "format": "prettier \"{lib,test}/*.mjs\"",
+    "build": "babel lib/index.mjs --out-file lib/index.js --plugins=@babel/transform-modules-commonjs"
   }
 }
