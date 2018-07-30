@@ -22,7 +22,7 @@
     "@babel/cli": "^7.0.0-beta.55",
     "@babel/core": "^7.0.0-beta.55",
     "@babel/plugin-transform-modules-commonjs": "^7.0.0-beta.55",
-    "eastern": "^0.0.4",
+    "eastern": "^0.0.5",
     "prettier": "^1.14.0"
   },
   "scripts": {
