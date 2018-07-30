@@ -1,5 +1,6 @@
-var assert = require('./../lib/assert-diff')
-var assertOrig = require('assert')
+import it from 'eastern'
+import assert from '../lib'
+import assertOrig from 'assert'
 
 it('assert() works on both', function() {
   assertOrig(true)
