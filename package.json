@@ -22,11 +22,11 @@
     "@babel/cli": "^7.0.0-beta.55",
     "@babel/core": "^7.0.0-beta.55",
     "@babel/plugin-transform-modules-commonjs": "^7.0.0-beta.55",
-    "eastern": "^0.0.4",
+    "mocha": "5.2.0",
     "prettier": "^1.14.0"
   },
   "scripts": {
-    "test": "node --experimental-modules test/example-passing-tests.mjs",
+    "test": "mocha test/example-passing-tests.js",
     "start": "npm test",
     "format": "prettier \"{lib,test}/*.mjs\"",
     "build": "babel lib/index.mjs --out-file lib/index.js --plugins=@babel/transform-modules-commonjs"

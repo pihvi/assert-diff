@@ -1,4 +1,4 @@
-var assert = require('./../lib/assert-diff')
+var assert = require('./../lib/')
 var assertOrig = require('assert')
 
 try {

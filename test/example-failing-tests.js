@@ -1,4 +1,4 @@
-var assert = require('./../lib/assert-diff')
+var assert = require('./../lib/')
 var assertOrig = require('assert')
 
 describe('examples', function() {
@@ -37,6 +37,7 @@ describe('examples', function() {
 
     assert.options.strict = true
     assert.deepEqual({a: 1, b: 2}, {a: true, b: '2'}, 'this should fail')
+    assert.options.strict = false
   })
 
   it('diff strict deep equal', function() {
@@ -45,9 +46,5 @@ describe('examples', function() {
 
   it('original strict deep equal', function() {
     assertOrig.deepStrictEqual({pow: '1'}, {pow: 1})
-  })
-
-  after(function() {
-    assert.options.strict = false
   })
 })
