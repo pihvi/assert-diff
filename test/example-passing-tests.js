@@ -33,3 +33,8 @@ it('strict diff deep equal', function() {
     assert.options.strict = false
   }
 })
+
+it('basic derived asserts works', function() {
+  assert.equal(3, 3, 'this should not fail')
+  assert.object({}, 'this should not fail');
+})
