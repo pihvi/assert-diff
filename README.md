@@ -38,6 +38,11 @@ Should give you:
 
 ## Release notes ##
 
+###  2.0.0 July 30, 2018  ###
+- Migrate to ES Modules https://github.com/pihvi/assert-diff/pull/17
+- Upgrade deps
+- Thanks @59naga!
+
 ###  1.2.6 Apr 14, 2018  ###
 - Add security build and badges
 - Upgrade deps
