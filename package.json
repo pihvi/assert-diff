@@ -19,16 +19,16 @@
     "json-diff": "0.5.2"
   },
   "devDependencies": {
-    "@babel/cli": "^7.0.0-beta.55",
-    "@babel/core": "^7.0.0-beta.55",
-    "@babel/plugin-transform-modules-commonjs": "^7.0.0-beta.55",
     "mocha": "5.2.0",
-    "prettier": "^1.14.0"
+    "prettier": "^1.14.0",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-node-externals": "^1.7.2"
   },
   "scripts": {
     "test": "mocha test/example-passing-tests.js",
     "start": "npm test",
-    "format": "prettier \"{lib,test}/*.mjs\"",
-    "build": "babel lib/index.mjs --out-file lib/index.js --plugins=@babel/transform-modules-commonjs"
+    "format": "prettier \"{lib,test}/*.{js,mjs}\" --write",
+    "build": "webpack lib/index.mjs"
   }
 }
