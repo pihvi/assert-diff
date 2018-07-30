@@ -38,6 +38,9 @@ Should give you:
 
 ## Release notes ##
 
+###  2.0.3 July 30, 2018  ###
+- Switch to webpack to enable assert(true) style
+
 ###  2.0.2 July 30, 2018  ###
 - Fix usage with assert(true) style
 
