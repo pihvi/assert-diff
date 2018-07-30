@@ -38,6 +38,9 @@ Should give you:
 
 ## Release notes ##
 
+###  2.0.1 July 30, 2018  ###
+- Fix v. 2.0.0 by adding the built index.js
+
 ###  2.0.0 July 30, 2018  ###
 - Migrate to ES Modules https://github.com/pihvi/assert-diff/pull/17
 - Upgrade deps
