@@ -38,6 +38,9 @@ Should give you:
 
 ## Release notes ##
 
+###  2.0.2 July 30, 2018  ###
+- Fix usage with assert(true) style
+
 ###  2.0.1 July 30, 2018  ###
 - Fix v. 2.0.0 by adding the built index.js
 
