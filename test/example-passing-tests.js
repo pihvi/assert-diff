@@ -1,4 +1,4 @@
-var assert = require('./../lib/').default
+var assert = require('./../lib/')
 var assertOrig = require('assert')
 
 it('assert() works on both', function() {
