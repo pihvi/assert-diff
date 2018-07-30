@@ -12,7 +12,7 @@
   "author": "Antti Mattila <pihvi@live.com>",
   "repository": "git://github.com/pihvi/assert-diff",
   "version": "1.2.7",
-  "main": "./lib/assert-diff.js",
+  "main": "./lib",
   "license": "Apache-2.0",
   "dependencies": {
     "assert-plus": "1.0.0",
