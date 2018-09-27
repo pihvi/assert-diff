@@ -1308,9 +1308,9 @@ isobject@^3.0.0, isobject@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
 
-json-diff@0.5.2:
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/json-diff/-/json-diff-0.5.2.tgz#e0bc9e434cd2c4c6354487835e01bf3fed335cda"
+json-diff@0.5.3:
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/json-diff/-/json-diff-0.5.3.tgz#6ad1fe9d31c3dc154e51b50dcd177af5cbd46f98"
   dependencies:
     cli-color "~0.1.6"
     difflib "~0.2.1"
