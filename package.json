@@ -16,7 +16,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "assert-plus": "1.0.0",
-    "json-diff": "0.5.2"
+    "json-diff": "0.5.3"
   },
   "devDependencies": {
     "mocha": "5.2.0",
