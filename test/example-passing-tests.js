@@ -61,4 +61,13 @@ it('async functions', async function() {
     })
   });
   assert.ok(b);
+
+  let c = false;
+  await assert.rejects(new Promise(function(resolve, reject) {
+    setTimeout(function() {
+      c = true;
+      reject(Error('bad error'))
+    })
+  }))
+  assert.ok(c);
 })
