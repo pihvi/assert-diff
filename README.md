@@ -38,6 +38,11 @@ Should give you:
 
 ## Release notes ##
 
+###  3.0.0 Mar 5, 2020  ###
+- Support async https://github.com/pihvi/assert-diff/pull/23
+- Upgrade deps
+- Thanks @fent!
+
 ###  2.0.3 July 30, 2018  ###
 - Switch to webpack to enable assert(true) style
 
