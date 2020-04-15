@@ -70,4 +70,8 @@ it('async functions', async function() {
     })
   }))
   assert.ok(c);
+
+  assert.throws(function() {
+    assert.equal(1, 2, 'should be able to throw outside of async functions too');
+  });
 })
