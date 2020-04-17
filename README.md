@@ -38,7 +38,12 @@ Should give you:
 
 ## Release notes ##
 
-###  3.0.0 Mar 5, 2020  ###
+###  3.0.1 April 17, 2020  ###
+- Fix async https://github.com/pihvi/assert-diff/pull/26
+- Upgrade deps
+- Thanks @fent!
+
+###  3.0.0 March 5, 2020  ###
 - Support async https://github.com/pihvi/assert-diff/pull/23
 - Upgrade deps
 - Thanks @fent!
