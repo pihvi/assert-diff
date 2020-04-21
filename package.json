@@ -21,7 +21,7 @@
   "devDependencies": {
     "mocha": "7.1.1",
     "prettier": "^2.0.4",
-    "webpack": "^4.42.1",
+    "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
     "webpack-node-externals": "^1.7.2"
   },
