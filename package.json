@@ -19,11 +19,11 @@
     "json-diff": "0.5.4"
   },
   "devDependencies": {
-    "mocha": "7.2.0",
-    "prettier": "^2.0.4",
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11",
-    "webpack-node-externals": "^1.7.2"
+    "mocha": "8.2.1",
+    "prettier": "^2.2.1",
+    "webpack": "^5.10.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-node-externals": "^2.5.2"
   },
   "scripts": {
     "test": "mocha test/example-passing-tests.js",
