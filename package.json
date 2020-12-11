@@ -27,6 +27,7 @@
   },
   "scripts": {
     "test": "mocha test/example-passing-tests.js",
+    "examples": "mocha test/example-failing-tests.js",
     "start": "npm test",
     "format": "prettier \"{lib,test}/*.{js,mjs}\" --write",
     "build": "webpack lib/index.mjs"
