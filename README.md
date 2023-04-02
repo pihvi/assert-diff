@@ -38,6 +38,9 @@ Should give you:
 
 ## Release notes ##
 
+###  3.0.3 April 2, 2023  ###
+- Upgrade deps
+
 ###  3.0.2 April 17, 2020  ###
 - Upgrade deps
 
