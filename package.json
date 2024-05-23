@@ -11,12 +11,12 @@
   ],
   "author": "Antti Mattila <pihvi@live.com>",
   "repository": "git://github.com/pihvi/assert-diff",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "main": "./lib",
   "license": "Apache-2.0",
   "dependencies": {
     "assert-plus": "1.0.0",
-    "json-diff": "1.0.3"
+    "json-diff": "1.0.6"
   },
   "devDependencies": {
     "mocha": "10.2.0",

@@ -38,6 +38,9 @@ Should give you:
 
 ## Release notes ##
 
+###  3.0.4 April 2, 2023  ###
+- Upgrade json-diff
+
 ###  3.0.3 April 2, 2023  ###
 - Upgrade deps
 
